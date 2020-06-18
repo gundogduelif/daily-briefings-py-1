@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
+##SENDGRID_API_KEY="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"
 
 load_dotenv()
 
