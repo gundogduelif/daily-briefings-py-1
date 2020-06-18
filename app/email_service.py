@@ -22,9 +22,11 @@ def send_email(subject="[Daily Briefing] This is a test", html="<p>Hello World</
         print(response.status_code) #> 202 indicates SUCCESS
         return response
     except Exception as e:
-        print("OOPS", e.message)
+        print(e)
+        #print("OOPS", e.message)
         return None
-
+      
+       
 if __name__ == "__main__":
     example_subject = "[Daily Briefing] This is a test"
 
