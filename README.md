@@ -71,6 +71,6 @@ python -m app.daily_briefing # note the module-syntax invocation
 Run the app:
 ```sh
 # windows:
-export FLASK_APP=hello.py 
+export FLASK_APP=web_app.py 
 flask run
 ```
